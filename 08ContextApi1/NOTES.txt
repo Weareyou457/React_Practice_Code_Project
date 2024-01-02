@@ -1,0 +1,32 @@
+
+
+Context api 
+
+staring point props se aaya hai problem hai props me vha se aaya hai 
+
+
+Card -----> APP card se app me data pass karna hai 
+
+username pass kar diya card me 
+
+Dashboard bana aaya (left right sidebar or 2 -2 portion sab me ho rhe )
+
+ab apn do dashborad me left me 1 potion me data pass karna hai 
+
+<app/> <dashboard/>
+<leftside/> -> <rightside/> -> <topComp/> -> <Card/>
+
+handle karna pad raha hai sab me beacuse aage chahiye 
+
+{
+title :"chai"     GLOBAL 
+} 
+
+card GLOBAL SE le lega or app global me data pass kr deti
+
+
+iske liye hai CONTEXT API 
+
+CONTEXT API ----> Redux (state managment )
+
+react - redux   --> Redux Toolkit (library)
